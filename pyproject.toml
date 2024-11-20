@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "titanic"
+version = "0.1.0"
+description = ""
+authors = ["Raniere Medeiros <raninho@raninho.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+keras = "^3.6.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+tensorflow = "^2.18.0"
+matplotlib = "^3.9.2"
+imblearn = "^0.0"
+shap = "^0.46.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
